@@ -1,5 +1,8 @@
 package htwberlin.webtech.m2;
 
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.*;
@@ -20,5 +23,6 @@ public class FlashcardController {
         Long flashcardId = Long.parseLong(id);
         return service.get(flashcardId);
     }
+
 }
 

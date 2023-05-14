@@ -37,6 +37,7 @@ out/
 .vscode/
 
 ### Ignore ###
+gradle
 
 
 ### H2 ###
