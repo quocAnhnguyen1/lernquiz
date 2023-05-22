@@ -1,4 +1,4 @@
-package htwberlin.webtech.web;
+package htwberlin.webtech.m1;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
